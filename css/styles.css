@@ -32,6 +32,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-title-color);s
 }
 
 .visually-hidden {
@@ -97,7 +105,7 @@ body {
 }
 
 /* ------------------------HERO---------------------------- */
-.hero. {
+.hero {
 }
 .hero-title {
   font-weight: 700;
@@ -146,15 +154,6 @@ body {
 
 .about {
 }
-.about-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-title-color);
-}
 .about-list {
 }
 .about-list-item {
@@ -165,15 +164,7 @@ body {
 .team {
   background-color: var(--accent-background-color);
 }
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-title-color);
-}
+
 .team-list {
 }
 .team-list-item {
@@ -182,7 +173,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
@@ -245,6 +235,3 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
-
-.our-work-text {
-  
